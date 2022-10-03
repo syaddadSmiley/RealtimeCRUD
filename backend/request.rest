@@ -1,0 +1,10 @@
+GET http://localhost:5000/products
+
+###
+POST http://localhost:5000/products
+Content-Type: application/json
+
+{
+    "nama": "Produk 2",
+    "price": 400000
+}
