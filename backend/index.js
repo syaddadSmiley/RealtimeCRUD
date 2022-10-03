@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 app.use(ProductRoute);
 
-app.listen(process.env.APP_PORT, function(err){
+app.listen(process.env.APP_PORT, '192.168.1.7', function(err){
     if (err) console.log("error", err)
     console.log('Server up and running', process.env.APP_PORT);
 });
